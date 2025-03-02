@@ -7,10 +7,10 @@ import keras
 from keras import layers
 
 # Leitura dos datasets
-abalone_train = pd.read_csv('abalone_train.csv',
+abalone_train = pd.read_csv('datasets/abalone_train.csv',
                             names=["Length", "Diameter", "Height", "Whole weight",
                                    "Shucked weight", "Viscera weight", "Shell weight", "Age"])
-abalone_test = pd.read_csv('abalone_test.csv',
+abalone_test = pd.read_csv('datasets/abalone_test.csv',
                            names=["Length", "Diameter", "Height", "Whole weight",
                                   "Shucked weight", "Viscera weight", "Shell weight", "Age"])
 
